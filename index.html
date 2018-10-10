@@ -11,12 +11,15 @@
     <p>Huvitavad faktid iga numbri kohta</p>
     
     <form action="">
-        <input type="text" placeholder="Sisesta number" id="numInput">
+        <input type="number" id="numInput" placeholder="Sisesta number">
+        <input type="number" id="incInput" placeholder="Inkrement">
+        
+        
     </form>
     
-    <p id="factOutput"></p>
+    <ul id="factOutput"></ul>
 
-<script src="http://numbersapi.com"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="main.js"></script>
   </body>
 </html>
