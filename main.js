@@ -28,4 +28,3 @@ if (number != '' && inc != '')
 // Listening to events
 numInput.addEventListener('input', getFact);
 incInput.addEventListener('input', getFact);
-    
